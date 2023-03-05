@@ -1,0 +1,1 @@
+CREATE TABLE names (id integer PRIMERY KEY, names varcher(32));
