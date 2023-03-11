@@ -1,1 +1,3 @@
-CREATE TABLE names (id integer PRIMERY KEY, names varcher(32));
+CREATE TABLE IF NOT EXIST names (id integer AUTOINCREMENT PRIMERY KEY, name varcher(32));
+INSERT INTO names(name) values ('xex'), ('(');
+SELECT * FROM names;
